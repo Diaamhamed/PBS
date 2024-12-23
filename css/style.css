@@ -1,0 +1,114 @@
+
+/* ========================= NAVBAR ============================= */
+
+.navbar {
+    --bs-bg-opacity: 1;
+    background-color: rgb(1, 9, 83) 
+    }
+
+    /* ====================== HOME SECTION ======================= */
+
+.HOME_IMAGE {
+    background-image: url(../images/2\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.HOME_IMAGE_COLOR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 233, 249, 0.116);
+    width: 100%;
+    height: 100%;
+    }
+.HOME_TEXT {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 15%;
+}
+.HOME_TEXT h2::after {
+    content: " |";
+    animation-name: type;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes type {
+    0%	{content: "		|";}
+4.500%	{content: "	D	|";}
+9%	{content: "	Di	|";}
+13.500%	{content: "	Dia	|";}
+18%	{content: "	Diaa	|";}
+22.500%	{content: "	Diaa M	|";}
+27%	{content: "	Diaa Mo	|";}
+31.500%	{content: "	Diaa Moh	|";}
+36%	{content: "	Diaa Moha	|";}
+40.500%	{content: "	Diaa Moham	|";}
+45%	{content: "	Diaa Mohame	|";}
+49.500%	{content: "	Diaa Mohamed	|";}
+54%	{content: "	Diaa Mohame	|";}
+58.500%	{content: "	Diaa Moham	|";}
+63%	{content: "	Diaa Moha	|";}
+67.500%	{content: "	Diaa Moh	|";}
+72%	{content: "	Diaa Mo	|";}
+76.500%	{content: "	Diaa M	|";}
+81%	{content: "	Diaa	|";}
+85.500%	{content: "	Dia	|";}
+90%	{content: "	Di	|";}
+94.500%	{content: "	D	|";}
+99%	{content: "		|";}
+100%	{content: "		|";}
+}
+
+/* ======================= ABOUT SECTION ==================== */
+
+.ABOUT-Class {
+    background-color: lightcyan;
+}
+.d-flex {
+    justify-content:center;
+    }
+.btn {
+    background-color: rgba(178, 178, 178, 0.505);
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+/* ====================== CARDS SECTION ====================== */
+
+.CARDS_Class {
+    background-color: lightgray;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.g-0 {
+    border: 2px solid black;
+}
+.card-body {
+    border-left: 2px solid black;
+}
+.CARD-5 {
+    background-color: blueviolet;
+}
+.CARD-6 {
+    background-color: rgb(128, 255, 0);
+}
+.text-E {
+    text-decoration: black;
+    font-weight: bold;
+}
+
+/* ====================== SLIDER ================== */
+
+.TT {
+    width: 65%;
+    height: 65%;
+}
+footer {
+    padding-bottom: 50px;
+}
